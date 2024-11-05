@@ -18,8 +18,8 @@ export default function CameraScreen() {
 
       if (!alertShown) {
         Alert.alert(
-          "NOTE: The app is on testing stage",
-          "DEVELOPER ISKO TECH.",
+          "NOTE: The app is on early stage of developement",
+          "DEVELOPER Oxide EcoPest AI",
           [{ text: "OK", onPress: () => setAlertShown(true) }]
         );
       }
@@ -33,7 +33,7 @@ export default function CameraScreen() {
   if (hasPermission === false) {
     return (
       <View style={styles.container}>
-        <Text style={styles.permissionText}>We need your permission to show the camera</Text>
+        <Text style={styles.permissionText}>Grant permission to access the camera</Text>
         <Button onPress={async () => {
           const { status } = await Camera.requestCameraPermissionsAsync();
           setHasPermission(status === 'granted');

@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "EcoPest AI",
-    "slug": "live",
+    "slug": "ecopestai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/mysplash.jpg",
@@ -30,7 +30,9 @@
         "INTERNET",
         "ACCESS_NETWORK_STATE",
         "CAMERA",
-        "RECORD_AUDIO"
+        "RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ],
       "package": "com.green"
     },
@@ -40,7 +42,7 @@
     "extra": {
       "PLANT_ID_API_KEY": "Z5YePylDAowH1iRneaHqYWQrfQShY5lnahxlvSMz8xgpsPPQ39",
       "eas": {
-        "projectId": "eccceab8-df9e-4e05-a4ff-a7edc090f628"
+        "projectId": "f6803ed0-599d-49dc-8fa3-f0e05c27db7a"
       }
     },
     "plugins": [
@@ -52,6 +54,7 @@
           "recordAudioAndroid": true
         }
       ]
-    ]
+    ],
+    "owner": "oxide54"
   }
 }

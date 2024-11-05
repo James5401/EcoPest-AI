@@ -33,4 +33,14 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+git remote add origin https://github.com/James5401/EcoPest-AI.git
 
+
+3. After adding the remote, try pushing again:
+```bash
+git push origin master
+```
+
+git@github.com:James5401/repository.git
+
+ eas build:configure
