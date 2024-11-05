@@ -44,3 +44,5 @@ git push origin master
 git@github.com:James5401/repository.git
 
  eas build:configure
+
+      git commit -m "Latest commit Ecopest AI Oxide "
